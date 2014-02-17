@@ -1,0 +1,23 @@
+{
+  "name": "twitter-auth",
+  "version": "0.0.0",
+  "description": "Messing around with twitter authentication (why is it this confusing?)",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/royvandewater/twitter-auth.git"
+  },
+  "keywords": [
+    "twitter",
+    "auth"
+  ],
+  "author": "Roy van de Water",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/royvandewater/twitter-auth/issues"
+  },
+  "homepage": "https://github.com/royvandewater/twitter-auth"
+}
