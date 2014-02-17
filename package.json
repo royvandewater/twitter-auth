@@ -4,7 +4,7 @@
   "description": "Messing around with twitter authentication (why is it this confusing?)",
   "main": "index.coffee",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --compilers coffee:coffee-script/register --require coffee-script --require test/test_helper.coffee"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/royvandewater/twitter-auth/issues"
   },
-  "homepage": "https://github.com/royvandewater/twitter-auth"
+  "homepage": "https://github.com/royvandewater/twitter-auth",
+  "dependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "devDependencies": {
+    "chai": "~1.9.0"
+  }
 }
