@@ -4,7 +4,7 @@
   "description": "Messing around with twitter authentication (why is it this confusing?)",
   "main": "index.coffee",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register --require coffee-script --require test/test_helper.coffee"
+    "test": "mocha --compilers coffee:coffee-script/register --require coffee-script --require test/test_helper.coffee --growl"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,8 @@
     "coffee-script": "~1.7.1"
   },
   "devDependencies": {
-    "chai": "~1.9.0"
+    "chai": "~1.9.0",
+    "watch": "~0.9.0",
+    "underscore": "~1.6.0"
   }
 }
